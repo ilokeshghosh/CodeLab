@@ -1,0 +1,20 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Complete homework",
+      "description": "Finish math and science assignments.",
+      "due_date": "2024-02-10",
+      "priority": "High",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "Buy groceries",
+      "description": "Milk, eggs, bread, and fruits.",
+      "due_date": "2024-02-05",
+      "priority": "Medium",
+      "completed": false
+    }
+  ]
+}
