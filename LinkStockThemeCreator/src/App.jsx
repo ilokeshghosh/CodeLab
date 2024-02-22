@@ -8,11 +8,39 @@ function App() {
   useEffect(() => {
     const links = [
       {
-        title: "Youtube",
+        title: "Youtube1",
         url: "https://www.youtube.com/",
       },
       {
-        title: "Facebook",
+        title: "Facebook2",
+        url: "https://www.facebook.com",
+      },
+      {
+        title: "Facebook3",
+        url: "https://www.facebook.com",
+      },
+      {
+        title: "Facebook4",
+        url: "https://www.facebook.com",
+      },
+      {
+        title: "Facebook5",
+        url: "https://www.facebook.com",
+      },
+      {
+        title: "Facebook6",
+        url: "https://www.facebook.com",
+      },
+      {
+        title: "Facebook7",
+        url: "https://www.facebook.com",
+      },
+      {
+        title: "Facebook8",
+        url: "https://www.facebook.com",
+      },
+      {
+        title: "Facebook9",
         url: "https://www.facebook.com",
       },
     ];
@@ -24,7 +52,7 @@ function App() {
 
   return (
     <>
-      <div className="wrapper  hidden">
+      <div className="wrapper ">
         {/* container */}
         <div className="innerContainer ">
           {/* upper section */}
@@ -34,9 +62,9 @@ function App() {
 
             {/* content section */}
             <div className="contentSection">
-              <h1>username</h1>
-              <h2>fullname</h2>
-              <h2>email</h2>
+              <h1>username asdfl</h1>
+              <h2>fullname lakdsfj alksfd</h2>
+              <h2>emailasdfasdfas</h2>
             </div>
           </div>
 
@@ -48,7 +76,7 @@ function App() {
                   {/* icon */}
                   <img className="linkIcon" src="" alt="" />
 
-                  <h2 className="linkTitle">Title</h2>
+                  <h2 className="linkTitle">{link.title}</h2>
                 </div>
               );
             })}
@@ -57,7 +85,7 @@ function App() {
       </div>
 
       {/* theme preview container(not to add in database) */}
-      <div className="w-full h-screen bg-slate-600 flex justify-center items-center">
+      <div className="w-full  h-screen bg-slate-600 flex justify-center items-center">
         <div className="innerSection">
           <div className="filter"></div>
           <h1 className="themeName">Name</h1>

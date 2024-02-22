@@ -1,5 +1,5 @@
 .wrapper {
-    background-color: #071952;
+    background-color: #191c2f;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -11,9 +11,8 @@
 .innerContainer {
     height: 600px;
     width: 350px;
-    background-color: #0B666A;
-    box-shadow: 6px 6px 1px #35A29F;
-    border: 2px solid #35A29F;
+    background-color: black;
+    border: 2px solid white;
     border-radius: 10px;
     margin: 0 auto;
     backdrop-filter: blur(5px);
@@ -23,7 +22,7 @@
 }
 
 .upperSection {
-    height: 40%;
+    height: 35%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -41,7 +40,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 3px solid #97FEED;
+    border: 3px solid white;
 }
 
 .contentSection {
@@ -51,22 +50,21 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 8px;
-    color: #97FEED;
-    font-size: larger;
-    font-weight: bolder;
+    gap: 1px;
+    color: white;
+    font-weight: medium;
 }
 
 .lowerSection {
-    height: 60%;
+    height: 63%;
     width: 100%;
     /* background-color: beige; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    padding: 10px 20px;
     gap: 1rem;
+    overflow-y: auto;
 
 }
 
@@ -81,8 +79,8 @@
     font-weight: bold;
     gap: 4rem;
     padding: 0 5px;
-    box-shadow: 3px 3px 1px #35A29F;
-    border: 2px solid #35A29F;
+
+    border: 2px solid white;
 
 }
 
@@ -92,13 +90,13 @@
     /* border: 2px solid red; */
     border-radius: 50%;
     /* box-shadow: 3px 3px 1px #BB86FC; */
-    border: 2px solid #35A29F;
+    border: 2px solid white;
 }
 
 .linkTitle {
     width: 40%;
     text-align: center;
-    color: #97FEED;
+    color: white;
 
 }
 
@@ -112,9 +110,8 @@
     align-items: center;
     border-radius: 2rem;
     position: relative;
-    background-color: #071952;
-    box-shadow: 4px 4px 1px #35A29F;
-    border: 2px solid #35A29F;
+    background-color: black;
+    border: 2px solid white;
 }
 
 .filter {
@@ -131,6 +128,6 @@
     font-size: larger;
     font-weight: bolder;
     padding: 0 12px;
-    color: #97FEED;
+    color: white;
     z-index: 100;
 }
