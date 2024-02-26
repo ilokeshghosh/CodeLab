@@ -102,7 +102,7 @@ function SignIn() {
           alignItems: "center",
           gap: "3px",
           color: "grey",
-          cursor:"pointer",
+          cursor: "pointer",
         }}
         href="#"
       >

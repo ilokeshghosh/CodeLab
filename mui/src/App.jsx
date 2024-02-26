@@ -12,12 +12,10 @@ import {
   Grid,
   Toolbar,
   Container,
-  Button
+  Button,
 } from "@mui/material";
 import { PhotoCamera } from "@mui/icons-material";
-import { SignIn,SignInSide } from "./templates";
-
-
+import { SignIn, SignInSide } from "./templates";
 
 function App() {
   return (
@@ -57,9 +55,11 @@ function App() {
         </div>
       </main> */}
 
-
       {/* <SignIn/> */}
-      <SignInSide/>
+
+      
+        <SignInSide />
+      
     </>
   );
 }
