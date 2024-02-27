@@ -4,12 +4,14 @@
 //     isActive:true
 // }
 
-// function createUser({name:string, isPaid:boolean}){}
+// function createUser({ name: string, isPaid: boolean }) { }
 
 // createUser({name:'lokesh',isPaid:false});
 
-// const newUser  = {name:'lokesh',isPaid:true,email:'lokesh@gmail.com'}
-// createUser(newUser)
+// const newUser = { name: 'lokesh', isPaid: true, email: 'lokesh@gmail.com' }
+// createUser(newUser) //suppose to throw error (bad behavior)
+
+// createUser({name:'lokesh',isPaid:true,email:'lokesh@gmail.com'}) // will throw error
 
 
 // function createCourse():{name:string,price:number}{
@@ -37,7 +39,7 @@ type User = {
     name: string,
     email: string,
     isActive: boolean,
-    creditCardDetails?:number
+    creditCardDetails?: number
 }
 
 let myUser: User = {
@@ -48,14 +50,14 @@ let myUser: User = {
     isActive: true
 }
 
-type cardNumber={
-    cardnumber:string
+type cardNumber = {
+    cardnumber: string
 }
-type cardDate={
-    cardDate:string
+type cardDate = {
+    cardDate: string
 }
 type cardDetails = cardDate & cardNumber & {
-    cvv:string
+    cvv: string
 }
 
 myUser.email = 'test@f.aom'

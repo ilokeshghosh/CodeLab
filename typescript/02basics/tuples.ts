@@ -14,3 +14,5 @@ const newUser: User = [112, "test@user.com"]
 newUser[1] = 'lokesh@example.com'
 newUser[0] = 322
 // newUser.push(false);
+
+export {}

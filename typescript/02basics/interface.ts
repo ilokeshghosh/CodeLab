@@ -41,3 +41,5 @@ const newUser: Admin = {
 };
 lokesh.email = 'l@g.com'
 
+export{}
+

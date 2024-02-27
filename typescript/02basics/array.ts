@@ -19,3 +19,5 @@ superHeros.push('')
 power.push(30)
 
 allUsers.push({ name: 'asfd', isActive: true })
+
+export{}
