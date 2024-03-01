@@ -15,7 +15,8 @@ import {
   Button,
 } from "@mui/material";
 import { PhotoCamera } from "@mui/icons-material";
-import { SignIn, SignInSide } from "./templates";
+import { Blog, SignIn, SignInSide, Signup,Checkout } from "./templates";
+
 
 function App() {
   return (
@@ -57,9 +58,11 @@ function App() {
 
       {/* <SignIn/> */}
 
-      
-        <SignInSide />
-      
+      {/* <Signup /> */}
+
+      {/* <Blog/> */}
+
+      <Checkout/>
     </>
   );
 }
