@@ -18,8 +18,8 @@ loginUser('lokesh', 'lokesh@gmail.com');
 var getHello = function (s) {
     return '';
 };
-var heros = ['thor', 'batman', 'hulk'];
-// const heros = [1,2,3]
+// const heros = ['thor', 'batman', 'hulk']
+var heros = [1, 2, 3];
 heros.map(function (hero) {
     return "hero is ".concat(hero);
     // return 2

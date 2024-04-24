@@ -3,7 +3,7 @@ const superHeros: string[] = []
 const power: Array<number> = []
 
 
-
+//  type alias
 type User = {
     name: string,
     isActive: boolean

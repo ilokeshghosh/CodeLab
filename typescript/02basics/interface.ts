@@ -13,7 +13,7 @@ interface User {
 }
 
 interface Admin extends User {
-    role: 'admin' | 'moderator'
+    role: 'admin' | 'moderator'  //union type
 }
 
 const lokesh: User = {

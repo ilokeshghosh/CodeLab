@@ -6,3 +6,9 @@ console.log(greetings);
 var id = 3232.6;
 // boolean
 var isLoggedIn = false;
+// any
+var hero;
+function getHero() {
+    return 'thor';
+}
+hero = getHero();

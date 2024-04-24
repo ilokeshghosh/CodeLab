@@ -109,6 +109,232 @@
           "zIndex": "100"
         }
       }
+    },
+    {
+      "id": 1,
+      "name": "Plain Orange",
+      "mainStyles": {
+        "wrapper": {
+          "backgroundColor": "black",
+          "height": "100vh",
+          "width": "100vw",
+          "display": "flex",
+          "justifyItems": "center",
+          "alignItems": "center"
+        },
+        "innerContainer": {
+          "height": "600px",
+          "width": "350px",
+          "backgroundColor": "#FF9843",
+          "border": "2px solid white",
+          "margin": "0 auto",
+          "backdropFilter": "blur(5px)",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "borderRadius": "10px"
+        },
+        "upperSection": {
+          "height": "35%",
+          "width": "100%",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "10px",
+          "justifyContent": "center",
+          "alignItems": "center"
+        },
+        "avatarContainer": {
+          "border": "3px solid white",
+          "width": "100px",
+          "height": "100px",
+          "borderRadius": "50%",
+          "backgroundRepeat": "no-repeat",
+          "backgroundPosition": "center",
+          "backgroundSize": "cover"
+        },
+        "contentSection": {
+          "width": "100%",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "alignItems": "center",
+          "gap": "1px",
+          "color": "white",
+          "fontWeight": "medium"
+        },
+        "lowerSection": {
+          "height": "63%",
+          "width": "100%",
+          "display": "flex",
+          "flexDirection": "column",
+          "alignItems": "center",
+          "padding": "10px 20px",
+          "gap": "1rem",
+          "overflowY": "auto"
+        },
+        "linkSection": {
+          "height": "2.5rem",
+          "width": "100%",
+          "borderRadius": "0.3rem",
+          "display": "flex",
+          "alignItems": "center",
+          "fontSize": "larger",
+          "fontWeight": "bold",
+          "gap": "4rem",
+          "padding": "0 5px",
+          "border": "2px solid white"
+        },
+        "linkIcon": {
+          "height": "30px",
+          "width": "30px",
+          "border": "2px solid white",
+          "borderRadius": "50%"
+        },
+        "linkTitle": {
+          "width": "40%",
+          "textAlign": "center",
+          "color": "white"
+        }
+      },
+      "previewStyles": {
+        "innerSection": {
+          "width": "200px",
+          "height": "100px",
+          "display": "flex",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "borderRadius": "2rem",
+          "backgroundColor": "#FF9843",
+          "border": "2px solid white",
+          "position": "relative"
+        },
+        "filter": {
+          "display": "none"
+        },
+        "themeName": {
+          "fontSize": "larger",
+          "fontWeight": "bolder",
+          "padding": "0 12px",
+          "color": "white",
+          "zIndex": "100"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Chiaroscuro Chic",
+      "mainStyles": {
+        "wrapper": {
+          "backgroundColor": "black",
+          "height": "100vh",
+          "width": "100vw",
+          "display": "flex",
+          "justifyItems": "center",
+          "alignItems": "center"
+        },
+        "innerContainer": {
+          "height": "600px",
+          "width": "350px",
+          "margin": "0 auto",
+          "backdropFilter": "blur(40px)",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "borderRadius": "10px",
+          "backgroundImage": "url(https://images.pexels.com/photos/925743/pexels-photo-925743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "cover"
+        },
+        "upperSection": {
+          "height": "35%",
+          "width": "100%",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "10px",
+          "justifyContent": "center",
+          "alignItems": "center"
+        },
+        "avatarContainer": {
+          "border": "3px solid black",
+          "width": "100px",
+          "height": "100px",
+          "borderRadius": "50%",
+          "backgroundRepeat": "no-repeat",
+          "backgroundPosition": "center",
+          "backgroundSize": "cover"
+        },
+        "contentSection": {
+          "width": "100%",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "alignItems": "center",
+          "gap": "1px",
+          "color": "black",
+          "fontWeight": "medium"
+        },
+        "lowerSection": {
+          "height": "63%",
+          "width": "100%",
+          "display": "flex",
+          "flexDirection": "column",
+          "alignItems": "center",
+          "padding": "10px 20px",
+          "gap": "1rem",
+          "overflowY": "auto"
+        },
+        "linkSection": {
+          "height": "2.5rem",
+          "width": "100%",
+          "borderRadius": "0.3rem",
+          "display": "flex",
+          "alignItems": "center",
+          "fontSize": "larger",
+          "fontWeight": "bold",
+          "gap": "4rem",
+          "padding": "0 5px",
+          "border": "2px solid black",
+          "backgroundColor": "#f5f5f58c"
+        },
+        "linkIcon": {
+          "height": "30px",
+          "width": "30px",
+          "border": "2px solid black",
+          "borderRadius": "50%"
+        },
+        "linkTitle": {
+          "width": "40%",
+          "textAlign": "center",
+          "color": "black"
+        }
+      },
+      "previewStyles": {
+        "innerSection": {
+          "width": "200px",
+          "height": "100px",
+          "display": "flex",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "borderRadius": "2rem",
+          "border": "2px solid black",
+          "position": "relative",
+          "backgroundImage": "url(https://images.pexels.com/photos/925743/pexels-photo-925743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "cover",
+          "backgroundPosition": "0px -130px"
+        },
+        "filter": {
+          "display": "none"
+        },
+        "themeName": {
+          "fontSize": "larger",
+          "fontWeight": "bolder",
+          "padding": "0 12px",
+          "color": "black",
+          "zIndex": "100"
+        }
+      }
     }
   ]
 }
